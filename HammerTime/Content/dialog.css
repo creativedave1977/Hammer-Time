@@ -1,0 +1,53 @@
+﻿.modal-background
+{
+    background-color: Black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+}
+.modal-popup
+{
+    background-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #808080;
+    border-radius:8px;
+	moz-border-radius:8px;
+    padding:12px;
+    max-width: 920px;
+    min-height:350px;
+}
+.modal-error-message
+{
+    border:2px solid #ff5500;
+    color:#ff5500;
+    display:none;
+    padding:8px;
+}
+.modal-div {
+    margin-top:10px;
+    text-align:right;
+    margin-right:50px;
+}
+/*special effects inside dialogs*/
+#divThumbWrapper 
+{
+	height:30px;
+}
+.thumb img 
+{ 
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+}
+.thumb span 
+{ 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span 
+{ 
+	visibility:visible;
+	top:12px; 
+	left:10px; 
+	z-index:9999999999;
+}

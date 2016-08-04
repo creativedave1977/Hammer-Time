@@ -1,0 +1,108 @@
+﻿.no-inventory {
+    margin-left:40px;
+    font-weight:bold;
+}
+.dialog-title {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000000;
+}
+.success-message
+{
+    background:url(/content/images/icons/success_small.png) no-repeat 2% 50%;
+    width:50%;
+    border:2px solid #0079C2;
+	border-radius:5px;
+	moz-border-radius:5px;
+	background-color:#ffffff;
+    color:#0079C2;
+    font-size:1em;
+    font-weight:bold;
+    text-align:center;
+    padding:8px;
+    position:absolute;
+    z-index:9999999;
+    top:60px;
+    margin:0 auto;
+    left:0;
+    right:0;
+}
+.error-message
+{
+    background:url(/content/images/icons/attention_icon_small.png) no-repeat 2% 50%;
+    width:50%;
+    border:2px solid #FF5500;
+	border-radius:5px;
+	moz-border-radius:5px;
+	background-color:#ffffff;
+    color:#000000;
+    font-size:1em;
+    font-weight:bold;
+    text-align:center;
+    padding:8px;
+    position:absolute;
+    z-index:9999999;
+    top:60px;
+    margin:0 auto;
+    left:0;
+    right:0;
+}
+.Grid 
+{
+    background-color: #fff; 
+    margin: 5px 0 10px 60px; 
+    border: solid 1px #525252; 
+    border-collapse:collapse; 
+    color: #000000;
+}
+.Grid td 
+{
+    padding: 2px;
+    border: solid 1px #c1c1c1; 
+}
+.Grid td a
+{
+    border:none;
+    color:#0079C2;
+    font-weight:bold;
+}
+.Grid th  
+{
+    padding:4px 4px 4px, 4px;
+    color: #000;
+    background-color:#C0C0C0;
+    border-left: solid 1px #525252;
+    font-size: 1.1em; 
+}
+.Grid th a
+{
+    color:#ffffff;
+    text-decoration:none;
+}
+.Grid .alt 
+{
+    background: #fcfcfc url(/Content/Images/grid-alt.png) repeat-x top; 
+}
+.Grid .pgr table  
+{
+    margin: 3px 0; 
+}
+.Grid .pgr td 
+{
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+}  
+.Grid .pgr a  
+{
+    color: Gray; 
+    text-decoration: none; 
+}
+.Grid .pgr a:hover 
+{
+    color: #000; 
+    text-decoration: none; 
+}
