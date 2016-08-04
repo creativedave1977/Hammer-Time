@@ -6,4 +6,4 @@ Assignment Company "Hammer Time" creates various types of hammers. You have been
 
 Project requirements: -AjaxControlToolkit (available as NuGet package) -An installed instance of SQL Server Express (you may need to alter the connection string in the web.config file)
 
-All SQL objects have been packaged in App_Data for presentation purposes.
+All SQL objects have been packaged inside solution folder for presentation purposes but will need to be added to App_Data ASP folder to function properly.  All SQL objects can be found there.
